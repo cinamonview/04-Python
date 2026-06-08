@@ -43,6 +43,6 @@ str9 = '{{  {0}  }}'.format('Python 중괄호 표현')
 print("str9=", str9)
 
 
-# 세자리 마다 컴마 표시 (cf 대표적으로 돈표시)
+# 세자리 마다 컴마 표시 (cf 대표적으로 돈표시``)
 str10 = 1592000
 print(format(str10, ','))
