@@ -1,9 +1,6 @@
-import phoneBookFuncDB as pb
+import phoneBookFuncList as pb
 
 def main():
-    # 🌟 시작하자마자 테이블 자동 생성 및 확인 명령어 호출
-    pb.create_table_if_not_exists() 
-    
     while True:
         print("\n1.입력 2.출력 3.검색 4.수정 5.삭제 6.종료")
         choice = input("선택: ")
